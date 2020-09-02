@@ -8,10 +8,10 @@
     color: $color;
 }
 
-@mixin card-layout($house: $house, $house-color: $house-color) {
+@mixin card-layout($house, $house-color) {
     width: 18%;
     margin: 1%;
-    background-color: $gold;
+    background-color: $house-color;
     box-shadow: $box-shadow;
     .img-holder {
       height: 250px;
